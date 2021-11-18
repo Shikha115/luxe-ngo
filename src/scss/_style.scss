@@ -233,8 +233,8 @@ ul {
     }
     .swiper-button-prev,
     .swiper-button-next {
-        background-color: #e8b01d;
-        color: #fff;
+        background-color: $yellow;
+        color: $white;
         height: 65px;
         width: 45px;
         &:after {
@@ -280,7 +280,7 @@ footer {
         font-weight: 500;
     }
     hr {
-        border-color: #fff;
+        border-color: $white;
         border-style: dashed;
         margin-top: 2pc;
     }
@@ -424,7 +424,7 @@ a.navbar-brand {
         font-size: 13px;
         font-weight: 600;
         text-transform: capitalize;
-        color: #000;
+        color: $black;
     }
     .about-sec-left {
         img {
@@ -450,11 +450,11 @@ a.navbar-brand {
     color: $white;
     text-align: left;
     box-shadow: inset 0px 0px 0px 200px #25e0f52c;
-    border: 10px solid #e8b01d;
+    border: 10px solid $yellow;
     border-left: 0;
     border-right: 0;
     h4 {
-        background-color: #000;
+        background-color: $black;
         padding: 20px 30px;
         text-transform: uppercase;
         font-weight: 500;
@@ -463,8 +463,8 @@ a.navbar-brand {
     h3 {
         margin-left: 30px;
         .btn-2 {
-            background-color: #000;
-            border-color: #fff;
+            background-color: $black;
+            border-color: $white;
         }
     }
 }
@@ -483,7 +483,7 @@ a.navbar-brand {
             bottom: 0 !important;
         }
         .swiper-pagination-bullet-active {
-            background-color: #fa482b;
+            background-color: $red;
         }
     }
     .title-section {
@@ -495,7 +495,7 @@ a.navbar-brand {
             .btn-1 {
                 background-color: #fcf0cb;
                 border-color: #fcf0cb;
-                color: #000;
+                color: $black;
                 font-size: 16px;
             }
         }
@@ -542,7 +542,7 @@ a.navbar-brand {
     }
     .activity-comm-inner {
         border-width: 7px !important;
-        border-color: #e8b01d !important;
+        border-color: $yellow !important;
         padding: 1pc 2pc;
         box-shadow: 0px 0px 5px lightgray;
         h4 {
@@ -613,14 +613,14 @@ a.navbar-brand {
             }
             i {
                 font-size: 25px;
-                color: #fa482b;
+                color: $red;
                 position: absolute;
                 top: -1pc;
                 left: -1pc;
-                background-color: #fff;
+                background-color: $white;
                 height: 40%;
                 width: 20%;
-                border: 1px solid #fa482b;
+                border: 1px solid $red;
                 border-radius: 0px 37px 37px 0px;
                 display: flex;
                 align-items: center;
@@ -657,7 +657,7 @@ a.navbar-brand {
     .service-area-left {
         p {
             font-size: 16px;
-            color: #000;
+            color: $black;
         }
         ul {
             padding-left: 1pc;
@@ -667,7 +667,7 @@ a.navbar-brand {
                 font-weight: 500;
                 margin-bottom: 1pc;
                 i {
-                    color: #e8b01d;
+                    color: $yellow;
                     margin-right: 10px;
                 }
             }
@@ -702,7 +702,7 @@ a:hover {
             margin-bottom: 10px;
         }
         .line {
-            background: #e8b01d;
+            background: $yellow;
             height: 4px;
             width: 12%;
         }
@@ -736,12 +736,12 @@ a:hover {
     }
     .contact-form-left {
         li {
-            background: #000;
+            background: $black;
             padding: 1pc;
             margin-bottom: 1pc;
             font-weight: 500;
             letter-spacing: 1px;
-            border: 1px dashed #fff;
+            border: 1px dashed $white;
             div p {
                 font-size: 12px;
                 text-decoration: underline;
@@ -749,7 +749,7 @@ a:hover {
             p,
             a,
             i {
-                color: #fff;
+                color: $white;
             }
             p {
                 margin: 0;
@@ -776,12 +776,12 @@ a:hover {
     .page-benner-inner {
         height: 6pc;
         width: max-content;
-        background: #000;
-        color: #fff;
+        background: $black;
+        color: $white;
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 7px double #e8b01d;
+        border: 7px double $yellow;
         padding: 0 1pc;
         text-align: center;
         bottom: 30%;
@@ -791,7 +791,7 @@ a:hover {
             font-size: 2.5pc;
             font-weight: 600;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #e8b01d;
+            -webkit-text-stroke-color: $yellow;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
@@ -805,7 +805,7 @@ a:hover {
         margin: 0;
     }
     p {
-        color: #000;
+        color: $black;
         font-weight: 600;
         margin: 0;
     }
@@ -833,7 +833,7 @@ a:hover {
         background-color: transparent;
         // padding: 2pc 2pc;
         // box-shadow: 0px 0px 3px 2px #e8b01d4d;
-        // border: 4px double #e8b01d;
+        // border: 4px double $yellow;
         label {
             font-size: 15px;
             font-weight: 600;
@@ -871,7 +871,7 @@ a:hover {
         position: relative;
         z-index: 2;
         a {
-            color: #000;
+            color: $black;
         }
         li {
             font-weight: 600;
@@ -902,7 +902,7 @@ a:hover {
         margin-bottom: 1.3rem;
     }
     .input-group {
-        background-color: #fff;
+        background-color: $white;
         border: 1px solid #ced4da;
         align-items: baseline;
         .form-control {
@@ -917,15 +917,15 @@ a:hover {
     .title-section {
         margin-bottom: 1.5pc;
         &>span {
-            color: #000;
+            color: $black;
             font-size: 25px;
             &:before {
-                border-color: #e8b01d;
+                border-color: $yellow;
             }
         }
     }
     form {
-        background-color: #fff;
+        background-color: $white;
         box-shadow: 6px 11px 24px 0 #171f2566;
         .form-inner {
             padding: 2pc 2pc;
@@ -965,7 +965,7 @@ a:hover {
             }
             &:first-child {
                 border: 4px double lightgray;
-                background-color: #fff;
+                background-color: $white;
             }
         }
     }
@@ -977,8 +977,8 @@ a:hover {
             margin: 0 1pc 0 0;
             height: 43px;
             width: 43px;
-            border: 1px solid #e8b01d;
-            background-color: #e8b01d;
+            border: 1px solid $yellow;
+            background-color: $yellow;
             display: flex;
             align-items: center;
             justify-content: center;
