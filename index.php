@@ -128,7 +128,7 @@
         </div>
     </section>
 
-    <section class="activity mb-3 position-relative">
+    <section class="activity position-relative">
         <div class="container">
             <div class="title-section text-center">
                 <span>What do we do?</span>

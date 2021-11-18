@@ -2,39 +2,33 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-3 d-flex justify-content-center">
-                <div class="footer-text">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dicta, accusamus eius in repellat quasi voluptatibus, quaerat natus culpa minima expedita porro, placeat sequi aut ex.</p>
-                </div>
-            </div>
-            <div class="col-12 col-lg-3 d-flex justify-content-center">
-                <div class="footer-text">
-                    <h3>SOCIALS</h3>
+                <div class="footer-text text-center">
+                    <div class="footer-logo">
+                        <a class="navbar-brand" href="index.php"><img src="./src/images/logo2.png" alt=""></a>
+                    </div>
                     <div class="social-links">
-                        <ul>
-                            <li><a href="">Facebook</a></li>
-                            <li><a href="">Instagram</i></a></li>
-                            <li><a href="">Whatsapp</a></li>
-                            <li><a href="">Twitter</a></li>
+                        <ul class="d-flex justify-content-center">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="col-12 col-lg-5 col-adjust d-flex justify-content-center">
                 <div class="footer-text">
-                    <h3>Useful Links</h3>
-                    <div class="social-links">
-                        <ul>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Donor Privicy Policy</i></a></li>
-                            <li><a href="">Disclaimer</a></li>
-                            <li><a href="">Terms of use</a></li>
-                            <li><a href="">Media Center</a></li>
-                        </ul>
+                    <p>Our goal is to provide education, Health Support, Food & Cloths and women Welfare to the needy people & to Provide foods to street Animals like dogs, cats etc.</p>
+                    <p class="text-white m-0"><i>- Contact Us To Donate</i></p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter Email">
+                        <div class="input-group-append">
+                            <a href="#" class="btn btn-1">Donate</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
                 <div class="footer-text">
                     <h3>Contact Us</h3>
                     <p><i class="fa-solid fa-share mr-2 text-white"></i>506-507,ITL Northex Tower, A09, Netaji Subhash Place, Pitampura, Delhi-110034</p>
@@ -43,14 +37,9 @@
                 </div>
             </div>
         </div>
-        <div class="footer-logo">
-            <a class="navbar-brand" href="index.php"><img src="./src/images/logo2.png" alt=""></a>
-        </div>
         <hr>
         <div class="copyright">
             <p>Copyright &copy; 2021, all rights reserved, designed by <a href="http://ebslon.com">Ebslon Infotech</a></p>
         </div>
     </div>
 </footer>
-
-
