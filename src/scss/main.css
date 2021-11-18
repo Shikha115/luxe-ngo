@@ -288,6 +288,7 @@ header .navbar-brand img {
   height: 125px;
   -o-object-fit: contain;
      object-fit: contain;
+  background-color: #fff;
 }
 
 header .navbar-toggler span {
