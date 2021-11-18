@@ -58,11 +58,14 @@ html {
 
 header {
     padding: 10px 0;
-    background-color: $white;
-    border-image: $gradient 1;
-    border-bottom: 5px solid transparent;
+    background-color: transparent;
+    width: 100%;
+    top: 0;
+    z-index: 66;
+    left: 0;
+    position: absolute;
     .social-links {
-        border-right: 2px solid $black;
+        border-right: 2px solid $white;
         padding-right: 7px;
         li {
             height: 37px;
@@ -75,12 +78,12 @@ header {
             padding: 0;
             background-color: transparent;
             &:hover {
-                border-color: $red;
+                border-color: $white;
                 transition: all 0.5s linear;
             }
         }
         a {
-            color: $yellow;
+            color: $white;
         }
     }
     .topbar {
@@ -94,11 +97,11 @@ header {
                 display: flex;
                 align-items: center;
                 a {
-                    color: $black;
+                    color: $white;
                 }
                 i {
                     margin-right: .6pc;
-                    color: $yellow;
+                    color: $white;
                 }
             }
         }
@@ -139,7 +142,7 @@ header {
                     }
                 }
                 a.nav-link {
-                    color: $black !important;
+                    color: $white !important;
                     font-size: 15px;
                     font-weight: 600;
                     margin: 0 20px;
@@ -217,7 +220,7 @@ ul {
 
 .home-slider {
     .home-slider-inner {
-        height: 80vh;
+        height: 90vh;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -771,10 +774,9 @@ a:hover {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    overflow: hidden;
     box-shadow: inset 0px 0px 0px 200px #25e0f52c;
     .page-benner-inner {
-        height: 6pc;
+        height: 4.3pc;
         width: max-content;
         background: $black;
         color: $white;
@@ -784,11 +786,11 @@ a:hover {
         border: 7px double $yellow;
         padding: 0 1pc;
         text-align: center;
-        bottom: 30%;
+        bottom: -2pc;
         position: absolute;
         h4 {
             margin: 0pc 0 0;
-            font-size: 2.5pc;
+            font-size: 2pc;
             font-weight: 600;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: $yellow;

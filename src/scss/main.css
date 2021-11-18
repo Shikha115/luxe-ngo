@@ -203,15 +203,16 @@ html {
 
 header {
   padding: 10px 0;
-  background-color: #fff;
-  -o-border-image: linear-gradient(90deg, #e8b01d 40%, #5ac434 100%) 1;
-     border-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #e8b01d), to(#5ac434)) 1;
-     border-image: linear-gradient(90deg, #e8b01d 40%, #5ac434 100%) 1;
-  border-bottom: 5px solid transparent;
+  background-color: transparent;
+  width: 100%;
+  top: 0;
+  z-index: 66;
+  left: 0;
+  position: absolute;
 }
 
 header .social-links {
-  border-right: 2px solid #000;
+  border-right: 2px solid #fff;
   padding-right: 7px;
 }
 
@@ -234,13 +235,13 @@ header .social-links li {
 }
 
 header .social-links li:hover {
-  border-color: #fa482b;
+  border-color: #fff;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
 }
 
 header .social-links a {
-  color: #e8b01d;
+  color: #fff;
 }
 
 header .topbar {
@@ -264,12 +265,12 @@ header .topbar .header-info li {
 }
 
 header .topbar .header-info li a {
-  color: #000;
+  color: #fff;
 }
 
 header .topbar .header-info li i {
   margin-right: .6pc;
-  color: #e8b01d;
+  color: #fff;
 }
 
 header nav.navbar {
@@ -322,7 +323,7 @@ header #navbarNav ul li:last-child a.nav-link {
 }
 
 header #navbarNav ul li a.nav-link {
-  color: #000 !important;
+  color: #fff !important;
   font-size: 15px;
   font-weight: 600;
   margin: 0 20px;
@@ -401,7 +402,7 @@ ul li {
 }
 
 .home-slider .home-slider-inner {
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -1131,13 +1132,12 @@ a:hover {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  overflow: hidden;
   -webkit-box-shadow: inset 0px 0px 0px 200px #25e0f52c;
           box-shadow: inset 0px 0px 0px 200px #25e0f52c;
 }
 
 .page-banner .page-benner-inner {
-  height: 6pc;
+  height: 4.3pc;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -1155,13 +1155,13 @@ a:hover {
   border: 7px double #e8b01d;
   padding: 0 1pc;
   text-align: center;
-  bottom: 30%;
+  bottom: -2pc;
   position: absolute;
 }
 
 .page-banner .page-benner-inner h4 {
   margin: 0pc 0 0;
-  font-size: 2.5pc;
+  font-size: 2pc;
   font-weight: 600;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #e8b01d;
