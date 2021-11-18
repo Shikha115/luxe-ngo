@@ -1,0 +1,76 @@
+$red:#fa482b;
+$yellow:#e8b01d;
+$green:#5ac434;
+$blue:#25e1f5;
+$gradient:linear-gradient(90deg, $yellow 40%, $green 100%);
+$white:#fff;
+$black: #000;
+$montserrat:'Montserrat',
+sans-serif;
+@keyframes up-down {
+    0% {
+        bottom: -10pc;
+    }
+    50% {
+        bottom: -7pc;
+    }
+    100% {
+        bottom: -10pc;
+    }
+}
+
+.up-down {
+    position: relative;
+    &:before {
+        position: absolute;
+        height: 22pc;
+        width: 22pc;
+        bottom: -10pc;
+        left: -11%;
+        content: '';
+        background: url('../images/h2.png') no-repeat scroll bottom right/contain;
+        // border-radius: 50%;
+        // border: 53px solid $primary;
+        z-index: -1;
+        animation-name: up-down;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
