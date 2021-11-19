@@ -18,14 +18,15 @@
             </div>
             <div class="col-12 col-lg-5 col-adjust d-flex justify-content-center">
                 <div class="footer-text">
+                    <h3>About Us</h3>
                     <p>Our goal is to provide education, Health Support, Food & Cloths and women Welfare to the needy people & to Provide foods to street Animals like dogs, cats etc.</p>
-                    <p class="text-white m-0"><i>- Contact Us To Donate</i></p>
+                    <!-- <p class="text-white m-0"><i>- Contact Us To Donate</i></p>
                     <div class="input-group">
                         <input type="email" class="form-control" placeholder="Enter Email">
                         <div class="input-group-append">
                             <a href="#" class="btn btn-1">Donate</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-12 col-lg-4 d-flex justify-content-center">
@@ -39,7 +40,7 @@
         </div>
         <hr>
         <div class="copyright">
-            <p>Copyright &copy; 2021, all rights reserved, designed by <a href="http://ebslon.com">Ebslon Infotech</a></p>
+            <p>Copyright &copy; 2021, all rights reserved, designed by <a href="http://ebslon.com" target='blank'>Ebslon Infotech</a></p>
         </div>
     </div>
 </footer>

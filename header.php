@@ -6,6 +6,47 @@
                     <a class="navbar-brand" href="index.php"><img src="./src/images/logo2.png" alt=""></a>
                 </div>
                 <div class="col-12 col-md-9">
+                    <nav class="navbar navbar-expand-lg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class=" nav-link " href="about.php">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="activity.php">Activities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="join.php">Join Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="contact.php">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <form class="form-inline ">
+                                        <a class="btn btn-2" href='donate.php'>Donate</a>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <header class="custom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3 text-center">
+                    <a class="navbar-brand" href="index.php"><img src="./src/images/logo2.png" alt=""></a>
+                </div>
+                <div class="col-12 col-md-9">
                     <div class="topbar">
                         <div class="d-flex align-items-center justify-content-end">
                             <div class="social-links">
@@ -58,4 +99,4 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
