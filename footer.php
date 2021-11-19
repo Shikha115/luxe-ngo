@@ -32,7 +32,7 @@
             <div class="col-12 col-lg-4 d-flex justify-content-center">
                 <div class="footer-text">
                     <h3>Contact Us</h3>
-                    <p><i class="fa-solid fa-share mr-2 text-white"></i>506-507,ITL Northex Tower, A09, Netaji Subhash Place, Pitampura, Delhi-110034</p>
+                    <p><i class="fa-solid fa-share mr-2 text-white"></i>E 53 S/F Mahipalpur New Delhi 110037</p>
                     <p><i class="fa-solid fa-share mr-2 text-white"></i><a href="tel:9990061912">9990061912</a></p>
                     <p><i class="fa-solid fa-share mr-2 text-white"></i><a href="mailto:Luxefoundationngo@gmail.com">Luxefoundationngo@gmail.com</a></p>
                 </div>

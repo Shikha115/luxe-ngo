@@ -115,7 +115,7 @@ header {
         margin: 0 !important;
         padding: 0;
         img {
-            height: 125px;
+            height: 100px;
             object-fit: contain;
             background-color: $white;
         }
@@ -131,7 +131,28 @@ header {
         font-size: 14px;
         font-weight: 600;
     }
-    #navbarNav {
+    .navbar-collapse {
+        ul li {
+            a.nav-link {
+                position: relative;
+                &:before {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: '';
+                    border-bottom: 2px solid $yellow;
+                    width: 0%;
+                }
+                &:hover:before {
+                    width: 100%;
+                    transition: all 0.5s linear;
+                }
+            }
+        }
+    }
+    .navbar-collapse,
+    .collapse {
+        justify-content: flex-end;
         ul {
             flex-direction: row !important;
             height: 100%;
@@ -144,33 +165,11 @@ header {
                 }
                 a.nav-link {
                     color: $white !important;
-                    font-size: 15px;
+                    font-size: 17px;
                     font-weight: 600;
                     margin: 0 20px;
                     padding: 0;
                     letter-spacing: 1px;
-                    position: relative;
-                    &:before {
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        content: '';
-                        border-bottom: 2px solid $yellow;
-                        width: 0%;
-                    }
-                    &:hover:before {
-                        width: 100%;
-                        transition: all 0.5s linear;
-                    }
-                }
-                .navbar-text {
-                    i {
-                        color: gray;
-                    }
-                    a {
-                        color: $black !important;
-                        margin-left: 5px;
-                    }
                 }
             }
         }
@@ -473,6 +472,35 @@ a.navbar-brand {
     }
 }
 
+.activity-inner {
+    overflow: hidden;
+    background-color: $white;
+    &:hover {
+        img {
+            filter: brightness(1);
+            transform: scale(1.1);
+            transition: all 0.5s linear;
+        }
+    }
+    .activity-absolute {
+        padding: 1pc 2pc;
+        display: none;
+        p {
+            margin: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: $black;
+        }
+        a {
+            color: gray;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+}
+
 .activity {
     padding: 2pc 0;
     background-color: #fcf0cb;
@@ -509,33 +537,6 @@ a.navbar-brand {
         width: 100%;
         filter: brightness(0.8);
     }
-    .activity-inner {
-        overflow: hidden;
-        background-color: $white;
-        &:hover {
-            img {
-                filter: brightness(1);
-                transform: scale(1.1);
-                transition: all 0.5s linear;
-            }
-        }
-    }
-    .activity-absolute {
-        padding: 1pc 2pc;
-        p {
-            margin: 0;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: $black;
-        }
-        a {
-            color: gray;
-            font-size: 14px;
-            font-weight: 600;
-            text-decoration: underline;
-        }
-    }
 }
 
 .activity-page {
@@ -544,18 +545,9 @@ a.navbar-brand {
         width: 100%;
         object-fit: contain;
     }
-    .activity-comm-inner {
-        border-width: 7px !important;
-        border-color: $yellow !important;
-        padding: 1pc 2pc;
-        box-shadow: 0px 0px 5px lightgray;
-        h4 {
-            text-transform: uppercase;
-            font-weight: 700;
-        }
-        p {
-            font-weight: 500;
-        }
+    li {
+        box-shadow: 0px 0px 3px lightgray;
+        margin-bottom: 2pc;
     }
 }
 
@@ -602,11 +594,12 @@ a.navbar-brand {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 30px 20px;
+            padding: 0px 20px;
             border: 2px solid transparent;
             margin-bottom: 3pc;
             position: relative;
             box-shadow: 0px 0px 3px #80808078;
+            height: 10pc;
             &:hover {
                 border-color: $red;
                 transition: all 0.5s ease;
@@ -869,6 +862,33 @@ a:hover {
 .donate-page {
     background: url('../images/donate-bg.jpg') no-repeat fixed right center/35%;
     padding: 2pc 0 5pc;
+    .donate-right {
+        display: none;
+        margin-left: auto;
+        margin-top: 2pc;
+        background-color: $white;
+        width: 46%;
+        padding: 3px;
+        position: relative;
+        &:before {
+            background-color: $white;
+            position: absolute;
+            content: '';
+            top: -0.8pc;
+            right: 3pc;
+            height: 25px;
+            width: 25px;
+            transform: rotate(45deg);
+            z-index: 1;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            position: relative;
+            z-index: 5;
+        }
+    }
     ul.navbar-nav {
         margin-bottom: 2pc !important;
         position: relative;

@@ -67,25 +67,31 @@
                                 <input type="number" class="form-control" placeholder="Enter Amount">
                             </div>
                             <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Pan Number">
+                                <input type="text" class="form-control" placeholder='Your Name'>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Email">
+                                <input type="text" class="form-control" placeholder='Your Address'>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Pan Number">
                             </div>
                             <div class="form-group">
                                 <input type="tel" class="form-control" placeholder="Mobile Number">
                             </div>
                             <div class="form-group m-0">
-                                <input type="text" class="form-control" placeholder="Your Company">
+                                <input type="email" class="form-control" placeholder="Enter Email">
                             </div>
                         </div>
                         <div class="d-flex fotm-btn">
                             <div class="bg-light px-4">
                                 <img src="./src/images/pay_methods_branding.png" alt="">
                             </div>
-                            <a href="" class="btn btn-2">Donate</a>
+                            <a href="" class="btn btn-2 donate-btn">Donate</a>
                         </div>
                     </form>
+                    <div class="donate-right">
+                        <img src="./src/images/qr-code.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>

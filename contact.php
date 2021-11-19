@@ -22,7 +22,7 @@
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <p>Address</p>
                                 </div>
-                                <p>506-507,ITL Northex Tower, A09, Netaji Subhash Place, Pitampura, Delhi-110034</p>
+                                <p>E 53 S/F Mahipalpur New Delhi 110037</p>
                             </li>
                             <li>
                                 <div class="d-flex align-items-start justify-content-start">
@@ -82,7 +82,7 @@
 
     <section class="map mb-80">
         <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.670519619358!2d77.1525383!3d28.6921105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8237f2fa865b70ac!2sEbslon%20Infotech-%20Website%20Designing%20And%20Website%20Development%20Company!5e0!3m2!1sen!2sin!4v1634901572044!5m2!1sen!2sin"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14018.80025808116!2d77.12650677114783!3d28.548733717971068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1c1514f5a741%3A0x545ffeef6b14c5aa!2sMahipalpur%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1637316699992!5m2!1sen!2sin"
                 width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>

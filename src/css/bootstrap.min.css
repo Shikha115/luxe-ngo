@@ -3376,7 +3376,8 @@ input[type=submit].btn-block {
     display: none
 }
 
-.collapsing {
+
+/* .collapsing {
     position: relative;
     height: 0;
     overflow: hidden;
@@ -3387,7 +3388,7 @@ input[type=submit].btn-block {
     .collapsing {
         transition: none
     }
-}
+} */
 
 .dropdown,
 .dropleft,
