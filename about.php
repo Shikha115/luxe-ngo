@@ -14,12 +14,12 @@
     <section class="about-sec mb-80 about-intro">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-lg-5">
                     <div class="about-sec-left position-relative">
                         <img src="src/images/shobha.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-lg-7">
                     <div class="about-sec-right">
                         <div class="title-section">
                             <h4 class='text-left'>Luxe Foundation</h4>
