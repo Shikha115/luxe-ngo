@@ -14,7 +14,7 @@
     <section class="contact-form position-relative mb-80">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-md-4 col-adjust pr-0">
+                <div class="col-12 col-lg-4 col-adjust p-0">
                     <div class="contact-form-left">
                         <ul>
                             <li>
@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-8 col-adjust">
+                <div class="col-12 col-lg-8 col-adjust">
                     <div class="contact-form-right">
                         <div class="title-section">
                             <h4 class='text-left'>Get in touch with Us</h4>
