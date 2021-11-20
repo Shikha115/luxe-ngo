@@ -211,6 +211,26 @@ header {
   position: absolute;
 }
 
+header.qr_code-header .navbar-collapse ul li a.nav-link {
+  color: #000 !important;
+}
+
+header.donate-header .navbar-collapse form {
+  display: none;
+}
+
+header.donate-header .navbar-collapse ul,
+header.donate-header .collapse ul {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+header.donate-header .navbar-collapse ul li a.nav-link,
+header.donate-header .collapse ul li a.nav-link {
+  color: #000 !important;
+}
+
 header .social-links {
   border-right: 2px solid #fff;
   padding-right: 7px;
@@ -672,6 +692,10 @@ a.navbar-brand {
   padding: 0;
 }
 
+.about-sec p:last-child {
+  margin: 0;
+}
+
 .about-sec.about-intro .about-sec-left:before {
   height: 100%;
   left: -3pc;
@@ -842,7 +866,7 @@ a.navbar-brand {
      object-fit: contain;
 }
 
-.activity-page li {
+.activity-page .activity-inner {
   -webkit-box-shadow: 0px 0px 3px lightgray;
           box-shadow: 0px 0px 3px lightgray;
   margin-bottom: 2pc;
@@ -956,6 +980,7 @@ a.navbar-brand {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .service-sec .service-sec-inner .service-comm p {
@@ -1236,41 +1261,41 @@ a:hover {
   color: #000000c2;
 }
 
-.donate-page {
+.qr-page {
   background: url("../images/donate-bg.jpg") no-repeat fixed right center/35%;
-  padding: 2pc 0 5pc;
+  padding: 5pc 0 4pc;
 }
 
-.donate-page .donate-right {
-  display: none;
-  margin-left: auto;
-  margin-top: 2pc;
-  background-color: #fff;
-  width: 46%;
-  padding: 3px;
-  position: relative;
-}
-
-.donate-page .donate-right:before {
-  background-color: #fff;
+.qr-page:before {
+  pointer-events: none;
+  background-color: #fcf0cba1;
+  height: 100%;
+  width: 65%;
   position: absolute;
+  top: 0;
+  left: 0;
   content: '';
-  top: -0.8pc;
-  right: 3pc;
-  height: 25px;
-  width: 25px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  z-index: 1;
 }
 
-.donate-page .donate-right img {
+.qr-page .donate-right {
+  margin-left: auto;
+  margin-top: 3pc;
+  width: 70%;
+  padding: 3px;
+}
+
+.qr-page .donate-right img {
   height: 100%;
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
   position: relative;
   z-index: 5;
+}
+
+.donate-page {
+  background: url("../images/donate-bg.jpg") no-repeat fixed right center/35%;
+  padding: 5pc 0 5pc;
 }
 
 .donate-page ul.navbar-nav {
@@ -1520,33 +1545,340 @@ a:hover {
   font-size: 27px;
 }
 
+@media only screen and (min-width: 400px) and (max-width: 576px) {
+  .about-sec.about-intro .about-sec-left {
+    margin: 0 !important;
+    text-align: center;
+  }
+  .about-sec.about-intro .about-sec-left img {
+    width: 70% !important;
+    margin-bottom: 1pc !important;
+  }
+  .about-sec .about-sec-left {
+    text-align: right;
+    margin-top: -4pc;
+  }
+  .about-sec .about-sec-left img {
+    width: 225px;
+    margin: 0 !important;
+  }
+  footer .footer-logo a.navbar-brand img {
+    width: 55%;
+  }
+  footer .col-12.justify-content-center {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    padding: 0px 35px;
+  }
+  .service-sec .service-sec-inner .title-section .service-sec-title {
+    max-width: 405px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .donate-page .col-adjust {
+    padding: 0 35px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mb-80 {
+    margin-bottom: 40px !important;
+  }
+  .pb-80 {
+    padding-bottom: 40px;
+  }
+  .about-sec .about-sec-left img {
+    margin-top: 2pc;
+  }
+  .join-banner h4 {
+    padding: 15px;
+    font-size: 20px;
+    max-width: 90%;
+    margin-bottom: .5pc;
+  }
+  .join-banner h3 {
+    margin-left: 15px;
+    margin-bottom: 0;
+  }
+  .service-sec .title-section img {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .service-sec .title-section h4 span {
+    color: #000 !important;
+    font-weight: inherit !important;
+  }
+  .service-sec .service-comm {
+    margin-bottom: 2pc;
+  }
+  footer {
+    padding: 2pc 0 1pc;
+  }
+  footer .footer-text {
+    margin-bottom: 2pc;
+  }
+  .page-banner .page-benner-inner {
+    height: 4pc;
+  }
+  .page-banner .page-benner-inner h4 {
+    font-size: 1.5pc;
+  }
+  .service-area .service-area-title h4 {
+    text-align: left;
+  }
+  .service-area .service-area-title p {
+    text-align: right;
+  }
+  .join-quote {
+    margin-top: 4pc;
+  }
+  .join-quote h4 {
+    font-size: 22px;
+    text-align: justify !important;
+    margin-bottom: 1pc;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .join-form .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .join-form img {
+    display: none;
+  }
+  .join-form h4 {
+    margin-bottom: 1pc;
+  }
+  .join-img img {
+    width: 100%;
+  }
+  .contact-form {
+    overflow-x: hidden;
+    margin-top: 4pc;
+  }
+  .contact-form .col-adjust {
+    padding: 0 15px !important;
+  }
+  .contact-form:before {
+    left: 0;
+    display: none;
+  }
+  .donate-page {
+    padding: 8pc 0 3pc;
+    background-size: 40% 100%;
+  }
+  .donate-page .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .donate-page .col-adjust {
+    padding: 0 15px;
+  }
+  .donate-page .donate-top {
+    display: none !important;
+  }
+  .donate-page form {
+    margin-bottom: 2pc;
+  }
+  .donate-page .donate-img {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .donate-page .donate-img p {
+    color: #000;
+  }
+  .donate-page .donate-img img:not(:first-child) {
+    margin-top: 1pc;
+    width: 100%;
+  }
+  .donate-page .donate-contact p,
+  .donate-page .donate-contact a {
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  header .navbar-brand img {
+    width: 100px !important;
+  }
+  .about-sec.about-intro .about-sec-left {
+    margin: 0 !important;
+    text-align: center;
+  }
+  .about-sec.about-intro .about-sec-left img {
+    width: 70% !important;
+    margin-bottom: 1pc !important;
+  }
+  .about-sec .about-sec-left {
+    text-align: right;
+    margin-top: -5pc;
+  }
+  .about-sec .about-sec-left img {
+    width: 300px;
+  }
+  .join-banner h4 {
+    max-width: 90%;
+  }
+  .service-sec .service-sec-inner .service-comm {
+    height: 12pc;
+  }
+  .service-sec .service-sec-inner .service-comm i {
+    border-radius: 0px 0px 37px 37px;
+    width: 17%;
+    height: 30%;
+    font-size: 22px;
+  }
+  footer .col-adjust {
+    padding: 0 15px;
+  }
+  footer .footer-text.text-center {
+    margin-bottom: 2pc;
+  }
+  footer .footer-logo a.navbar-brand img {
+    width: 55%;
+  }
+  .join-quote {
+    margin-top: 4pc;
+  }
+  .join-quote h4 {
+    margin-bottom: 1pc;
+    text-transform: capitalize;
+  }
+  .join-form .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .join-form img {
+    display: none;
+  }
+  .join-form h4 {
+    margin-bottom: 1pc;
+  }
+  .join-img img {
+    width: 70%;
+  }
+  .donate-page {
+    padding: 8pc 0 3pc;
+    background-size: 35% 100%;
+  }
+  .donate-page .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .donate-page .donate-top {
+    display: none !important;
+  }
+  .donate-page form {
+    margin-bottom: 2pc;
+  }
+  .donate-page .donate-contact p,
+  .donate-page .donate-contact a {
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  header .navbar-brand img {
+    width: 125px;
+  }
+  .service-sec .service-sec-inner .service-comm {
+    height: 14pc;
+  }
+  .service-sec .service-sec-inner .service-comm i {
+    width: 25%;
+    height: 30%;
+    font-size: 22px;
+  }
+  footer .footer-logo a.navbar-brand img {
+    width: 100%;
+  }
+  .about-sec.about-intro .about-sec-left {
+    text-align: left;
+  }
+  .about-sec.about-intro .about-sec-left img {
+    width: 50%;
+  }
+  .join-img img {
+    width: 60%;
+  }
+  .join-form .col-adjust {
+    padding: 0 15px;
+  }
+  .contact-form .col-adjust {
+    padding: 0 15px !important;
+  }
+  .contact-form .contact-form-left ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .contact-form .contact-form-left ul li {
+    width: calc(50% - (15px));
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - (15px));
+            flex: 0 0 calc(50% - (15px));
+  }
+  .donate-page {
+    padding: 8pc 0 3pc;
+    background-size: 35% 100%;
+  }
+  .donate-page .donate-top {
+    display: none !important;
+  }
+  .donate-page .col-adjust {
+    padding: 0 15px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   header .navbar-brand img {
     height: 100%;
-    width: 70%;
+    width: 90px;
   }
   header .mobile-overlay {
     background-color: #000000e6;
-    position: absolute;
-    height: 100vh;
+    position: fixed;
     width: 100%;
     z-index: 9;
     top: 0;
     left: 0;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
   }
   header .collapse {
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    height: 100%;
     width: 300px;
     z-index: 88;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
-    display: block !important;
+    opacity: 0;
+    visibility: hidden;
   }
   header .collapse ul {
     -webkit-box-orient: vertical !important;
@@ -1584,6 +1916,15 @@ a:hover {
     line-height: 24px;
     margin-right: 9px;
   }
+  header.menu-show .navbar-toggler {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 14px 20px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
   header.menu-show .navbar-toggler i {
     color: #000;
     font-size: 30px;
@@ -1591,14 +1932,21 @@ a:hover {
   header.menu-show .mobile-overlay {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
+    opacity: 1;
+    visibility: visible;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
   }
   header.menu-show .collapse {
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
     -webkit-transition: all 0.7s ease 500ms;
     transition: all 0.7s ease 500ms;
+  }
+  header.donate-header a.navbar-brand {
+    display: block;
   }
   header .navbar-toggler {
     position: relative;
@@ -1619,8 +1967,25 @@ a:hover {
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar-toggler {
+  .navbar-toggler,
+  .collapse,
+  .mobile-overlay {
     display: none;
+  }
+  .donate-header a.navbar-brand {
+    display: none;
+  }
+  .donate-header .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .service-sec .col-adjust {
+    padding: 0 15px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */

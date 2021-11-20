@@ -64,6 +64,27 @@ header {
     z-index: 66;
     left: 0;
     position: absolute;
+    &.qr_code-header {
+        .navbar-collapse ul li a.nav-link {
+            color: $black !important;
+        }
+    }
+    &.donate-header {
+        .navbar-collapse {
+            form {
+                display: none;
+            }
+        }
+        .navbar-collapse,
+        .collapse {
+            ul {
+                justify-content: center !important;
+                li a.nav-link {
+                    color: #000 !important;
+                }
+            }
+        }
+    }
     .social-links {
         border-right: 2px solid $white;
         padding-right: 7px;
@@ -406,6 +427,9 @@ a.navbar-brand {
 }
 
 .about-sec {
+    p:last-child {
+        margin: 0;
+    }
     &.about-intro {
         .about-sec-left:before {
             height: 100%;
@@ -545,7 +569,7 @@ a.navbar-brand {
         width: 100%;
         object-fit: contain;
     }
-    li {
+    .activity-inner {
         box-shadow: 0px 0px 3px lightgray;
         margin-bottom: 2pc;
     }
@@ -627,6 +651,7 @@ a.navbar-brand {
                 font-size: 18px;
                 font-weight: 600;
                 text-transform: uppercase;
+                text-align: center;
             }
             p {
                 text-align: center;
@@ -859,28 +884,24 @@ a:hover {
     color: #000000c2;
 }
 
-.donate-page {
+.qr-page {
     background: url('../images/donate-bg.jpg') no-repeat fixed right center/35%;
-    padding: 2pc 0 5pc;
+    padding: 5pc 0 4pc;
+    &:before {
+        pointer-events: none;
+        background-color: #fcf0cba1;
+        height: 100%;
+        width: 65%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+    }
     .donate-right {
-        display: none;
         margin-left: auto;
-        margin-top: 2pc;
-        background-color: $white;
-        width: 46%;
+        margin-top: 3pc;
+        width: 70%;
         padding: 3px;
-        position: relative;
-        &:before {
-            background-color: $white;
-            position: absolute;
-            content: '';
-            top: -0.8pc;
-            right: 3pc;
-            height: 25px;
-            width: 25px;
-            transform: rotate(45deg);
-            z-index: 1;
-        }
         img {
             height: 100%;
             width: 100%;
@@ -889,6 +910,11 @@ a:hover {
             z-index: 5;
         }
     }
+}
+
+.donate-page {
+    background: url('../images/donate-bg.jpg') no-repeat fixed right center/35%;
+    padding: 5pc 0 5pc;
     ul.navbar-nav {
         margin-bottom: 2pc !important;
         position: relative;
