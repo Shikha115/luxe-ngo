@@ -4,14 +4,21 @@ $(document).ready(function() {
         $('.navbar-toggler').click(() => {
             $('.navbar-toggler').find('i').toggleClass('fa-times').css('transition', 'all 0.5s ease');
             $('header').toggleClass('menu-show');
+            $('body').toggleClass('overflow-hidden');
         });
     });
 
+    // $(() => {
+    //     $('.donate-btn').click((e) => {
+    //         e.preventDefault();
+    //         $('.donate-right').slideToggle();
+    //     });
+    // });
+
     $(() => {
-        $('.donate-btn').click((e) => {
-            e.preventDefault();
-            $('.donate-right').css('display', 'block');
-        });
+        var height = $(window).height();
+        $('.collapse').css('height', height);
+        $('.mobile-overlay').css('height', height);
     });
     $(() => {
         const swiper = new Swiper('.home-swiper', {
@@ -30,7 +37,6 @@ $(document).ready(function() {
     $(() => {
         const swiper = new Swiper('.activity-swiper', {
             slidesPerView: 3,
-
             autoplay: true,
             spaceBetween: 10,
             loop: true,
@@ -40,6 +46,19 @@ $(document).ready(function() {
                 el: '.swiper-pagination',
                 clickable: true,
                 type: 'bullets'
+            },
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                400: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 3
+                }
             }
         });
     });
