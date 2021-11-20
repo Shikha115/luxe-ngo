@@ -3372,9 +3372,10 @@ input[type=submit].btn-block {
     opacity: 0
 }
 
-.collapse:not(.show) {
+
+/* .collapse:not(.show) {
     display: none
-}
+} */
 
 
 /* .collapsing {
