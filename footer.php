@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="col-12 col-md-3 d-flex justify-content-center">
                 <div class="footer-text text-center">
                     <div class="footer-logo">
                         <a class="navbar-brand" href="index.php"><img src="./src/images/logo2.png" alt=""></a>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5 col-adjust d-flex justify-content-center">
+            <div class="col-12 col-sm-6 col-md-5 col-adjust d-flex justify-content-center">
                 <div class="footer-text">
                     <h3>About Us</h3>
                     <p>Our goal is to provide education, Health Support, Food & Cloths and women Welfare to the needy people & to Provide foods to street Animals like dogs, cats etc.</p>
@@ -29,8 +29,8 @@
                     </div> -->
                 </div>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
-                <div class="footer-text">
+            <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
+                <div class="footer-text m-0">
                     <h3>Contact Us</h3>
                     <p><i class="fa-solid fa-share mr-2 text-white"></i>E 53 S/F Mahipalpur New Delhi 110037</p>
                     <p><i class="fa-solid fa-share mr-2 text-white"></i><a href="tel:9990061912">9990061912</a></p>
