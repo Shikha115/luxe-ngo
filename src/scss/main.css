@@ -1578,6 +1578,9 @@ a:hover {
   .donate-page .col-adjust {
     padding: 0 35px !important;
   }
+  .qr-page .donate-right {
+    width: 60% !important;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -1704,6 +1707,23 @@ a:hover {
   .donate-page .donate-contact a {
     color: #000;
   }
+  .qr-page {
+    background-size: 35% 100%;
+    padding: 7pc 0 0;
+  }
+  .qr-page .row {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .qr-page .title-section h4 {
+    font-size: 25px;
+  }
+  .qr-page .donate-right {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -1791,6 +1811,24 @@ a:hover {
   .donate-page .donate-contact a {
     color: #000;
   }
+  .qr-page {
+    background-size: 35% 100%;
+    padding: 8pc 0 3pc;
+  }
+  .qr-page .row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+  }
+  .qr-page .title-section h4 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .qr-page .donate-right {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -1847,6 +1885,23 @@ a:hover {
   }
   .donate-page .col-adjust {
     padding: 0 15px;
+  }
+  .qr-page {
+    background-size: 35% 100%;
+    padding: 8pc 0 3pc;
+  }
+  .qr-page .row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+  }
+  .qr-page .title-section h4 {
+    font-weight: 600;
+  }
+  .qr-page .donate-right {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
