@@ -81,42 +81,42 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-hand-holding-medical"></i>
                             <h4>GIVE DONATION</h4>
                             <p>You can give donation to help in our running Projects.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-heart-pulse"></i>
                             <h4>The Needy People</h4>
                             <p>You can become a volenteer to help the need peson.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-gift"></i>
                             <h4>GIVE SCHOLARSHIP</h4>
                             <p>You can give donation as scholership for poor students.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-apple-whole"></i>
                             <h4>Give Food and Clothes</h4>
                             <p>You can give foods & cloths to distribute in the needy one.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-baby-carriage"></i>
                             <h4>create awareness</h4>
                             <p>You can create Awareness to the People for development of our society.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="col-12 col-sm-6 col-md-4 col-adjust pl-sm-0">
                         <div class="service-comm">
                             <i class="fa-solid fa-house-chimney"></i>
                             <h4>Share our Works</h4>
