@@ -1,29 +1,13 @@
 <?php include("./header-css.php");?>
+<?php include("./header.php");?>
 
 <main>
 
     <section class="donate-page position-relative">
         <div class="container">
-            <ul class="navbar-nav flex-row">
-                <li>
-                    <a href="index.php">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li>
-                    <a href="about.php">About</a>
-                </li>
-                <li>
-                    <a href="activity.php">Activities</a>
-                </li>
-                <li>
-                    <a href="join.php">Join Us</a>
-                </li>
-                <li>
-                    <a href="contact.php">Contact</a>
-                </li>
-            </ul>
             <div class="row">
-                <div class="col-12 col-md-7 p-0">
-                    <div class="align-items-center d-flex mb-4">
+                <div class="col-12 col-md-6 col-lg-7 p-sm-0">
+                    <div class="align-items-center d-flex mb-4 donate-top">
                         <div class="mr-3">
                             <img src="./src/images/logo2.png" alt="" class="donate-logo">
                         </div>
@@ -54,7 +38,7 @@
                         <p> <i class="fa-regular fa-circle-dot mr-2"></i></i><a href="mailto:Luxefoundationngo@gmail.com">Luxefoundationngo@gmail.com</a></p>
                     </div>
                 </div>
-                <div class="col-12 col-md-5 col-adjust pr-0">
+                <div class="col-12 col-md-6 col-lg-5 col-adjust pr-lg-0">
                     <form>
                         <div class="form-inner">
                             <div class="title-section">
@@ -73,7 +57,7 @@
                                 <input type="text" class="form-control" placeholder='Your Address'>
                             </div>
                             <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Pan Number">
+                                <input type="text" class="form-control" placeholder="Pan Number">
                             </div>
                             <div class="form-group">
                                 <input type="tel" class="form-control" placeholder="Mobile Number">
@@ -86,12 +70,12 @@
                             <div class="bg-light px-4">
                                 <img src="./src/images/pay_methods_branding.png" alt="">
                             </div>
-                            <a href="" class="btn btn-2 donate-btn">Donate</a>
+                            <a href="./qr_code.php" class="btn btn-2 donate-btn">Proceed</a>
                         </div>
                     </form>
-                    <div class="donate-right">
+                    <!-- <div class="donate-right">
                         <img src="./src/images/qr-code.jpg" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
