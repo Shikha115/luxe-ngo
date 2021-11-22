@@ -604,7 +604,6 @@ footer .footer-text a:hover {
 }
 
 footer .footer-logo a.navbar-brand img {
-  height: 100%;
   width: 70%;
   -o-object-fit: contain;
      object-fit: contain;
