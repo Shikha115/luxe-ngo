@@ -382,6 +382,7 @@
             transform: translateX(100%);
             opacity: 0;
             visibility: hidden;
+            overflow: auto;
             ul {
                 flex-direction: column !important;
                 position: relative;

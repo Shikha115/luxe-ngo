@@ -1933,6 +1933,7 @@ a:hover {
             transform: translateX(100%);
     opacity: 0;
     visibility: hidden;
+    overflow: auto;
   }
   header .collapse ul {
     -webkit-box-orient: vertical !important;
